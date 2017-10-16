@@ -45,7 +45,5 @@ public class Zeldur extends Game{
         g.fillRect(200, 200, 120, 120);
         g.dispose();
         bs.show();
-        g.dispose();
-        bs.show();
     }
 }
