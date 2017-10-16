@@ -37,12 +37,11 @@ public class Zeldur extends Game{
             return;
         }
 
+        this.clearScreen();
+        this.renderScreen();
+
         Graphics g = bs.getDrawGraphics();
-        g.setColor(Color.darkGray);
-        g.fillRect(0, 0, getWidth(), getHeight());
-        g.setColor(Color.BLACK);
-        g.drawImage(icon.getImage(), 0, 0, null);
-        g.fillRect(200, 200, 120, 120);
+        g.drawImage(this.getImage(), 0, 0, getWidth(), getHeight(), null);
         g.dispose();
         bs.show();
     }
