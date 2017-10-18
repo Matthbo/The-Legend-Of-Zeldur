@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Java-Game-Engine/Game Engine.iml" filepath="$PROJECT_DIR$/../Java-Game-Engine/Game Engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/The Legend of Zeldur.iml" filepath="$PROJECT_DIR$/The Legend of Zeldur.iml" />
     </modules>
   </component>
