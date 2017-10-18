@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_jar</output-path>
+    <root id="archive" name="The-Legend-Of-Zeldur_test.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="The Legend of Zeldur" />
+      <element id="module-output" name="Game Engine" />
+    </root>
+  </artifact>
+</component>
