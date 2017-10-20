@@ -4,6 +4,7 @@ import matthbo.game.engine.Game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.awt.image.BufferStrategy;
 
 public class Zeldur extends Game{
@@ -26,7 +27,7 @@ public class Zeldur extends Game{
 
     @Override
     public void update() {
-
+        if(input.isReleasedKey(KeyEvent.VK_F)) fullscreen();
     }
 
     @Override
